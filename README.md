@@ -58,6 +58,29 @@ With rising inflation and interest rates, fiat savings are devaluing. This proto
 
 **3️⃣ Freeze & Thaw Token Accounts**
 - Only the freeze authority can execute these actions.
-  
+
+**4️⃣ Burn Tokens (Redemption)**
+
+- Burns SPL tokens to remove them from circulation.
+
+**5️⃣ Stake Tokens (Earn Yield)**
+
+- Users can stake their tokens into an escrow account to earn yield.
+
+**6️⃣ Claim Yield**
+
+- Mints new tokens as yield rewards based on staking duration.
+
+**7️⃣ Unstake Tokens (Withdraw)**
+
+- Users can withdraw their staked tokens from the escrow account.
+
+**8️⃣ Close Staking Account**
+
+- Allows users to close their staking account once they withdraw all staked tokens.
+
+**9️⃣ Transfer Mint Authority**
+
+ Changes the mint authority of an SPL token (e.g., for governance).
 
 
