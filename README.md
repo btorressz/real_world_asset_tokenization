@@ -8,6 +8,8 @@ This Solana-based program allows users to tokenize real world assets (RWAs) such
 
 With rising inflation and interest rates, fiat savings are devaluing. This protocol provides an on-chain hedge by tokenizing tangible assets, allowing fractional ownership, staking, and automated yield generation.
 
+devnet
+
 # 🔥 Features
 
 # 🎟 Tokenization
