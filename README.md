@@ -83,6 +83,20 @@ With rising inflation and interest rates, fiat savings are devaluing. This proto
 
  - Changes the mint authority of an SPL token (e.g., for governance).
 
+
+
+## 🚀 Future Enhancements
+
+= **✅ Oracles: Integrate Pyth & Switchboard for real-world pricing.**
+
+ - **✅ Governance: Allow DAOs to control asset minting.**
+
+ - **✅ Tokenized Loans: Use RWAs as collateral for DeFi loans.**
+
+- **✅ Automated Tax Reporting: Generate on-chain tax reports for asset sales.**
+
+
+
  
 
 
