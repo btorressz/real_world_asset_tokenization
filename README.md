@@ -12,27 +12,44 @@ With rising inflation and interest rates, fiat savings are devaluing. This proto
 
 # 🎟 Tokenization
 
-Create RWAs as SPL tokens with metadata (name, symbol, URI).
+- Create RWAs as SPL tokens with metadata (name, symbol, URI).
 
-Fractionalized Ownership: Assets can be split into multiple tokens for investors.
+- Fractionalized Ownership: Assets can be split into multiple tokens for investors.
 
 # 🏦 Staking & Yield
 
-Stake tokenized assets into a program-owned escrow account.
+- Stake tokenized assets into a program-owned escrow account.
 
-Earn automated yield, calculated based on staking duration.
+- Earn automated yield, calculated based on staking duration.
 
-Unstake and withdraw tokens at any time.
+- Unstake and withdraw tokens at any time.
 
 # 🔒 Asset Control
 
-Freeze & Thaw tokens to prevent unauthorized transfers.
+- Freeze & Thaw tokens to prevent unauthorized transfers.
 
-Burn tokens for asset redemption.
+- Burn tokens for asset redemption.
 
-Update metadata for assets when necessary.
+- Update metadata for assets when necessary.
 
 
 # 📡 Oracle Integration (Future)
 
-Support for Pyth & Switchboard oracles for real-time asset pricing.
+- Support for Pyth & Switchboard oracles for real-time asset pricing.
+
+# 📜 Program Architecture (lib.rs)
+
+**1️⃣ Initialize a New Tokenized Asset**
+
+- Creates a new SPL token mint, stores metadata, and mints tokens to the creator’s associated token account.
+
+**PDAs:**
+
+- ssetAccount: Stores metadata (creator, name, symbol, URI).
+
+- mint: The SPL token mint for the asset.
+
+- destinationTokenAccount: The user’s associated token account.
+  
+
+
