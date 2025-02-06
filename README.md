@@ -32,6 +32,29 @@ Burn tokens for asset redemption.
 
 Update metadata for assets when necessary.
 
+## 📜 Program Architecture (lib.rs)
+
+1️⃣ Initialize a New Tokenized Asset
+
+Creates a new SPL token mint, stores metadata, and mints tokens to the creator’s associated token account.
+
+pub fn initialize_asset(
+    ctx: Context<InitializeAsset>,
+    asset_name: String,
+    symbol: String,
+    uri: String,
+    decimals: u8,
+    total_supply: u64,
+) -> Result<()> {
+
+PDAs:
+
+assetAccount: Stores metadata (creator, name, symbol, URI).
+
+mint: The SPL token mint for the asset.
+
+destinationTokenAccount: The user’s associated token account.
+
 📡 Oracle Integration (Future)
 
 Support for Pyth & Switchboard oracles for real-time asset pricing.
