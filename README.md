@@ -81,6 +81,8 @@ With rising inflation and interest rates, fiat savings are devaluing. This proto
 
 **9️⃣ Transfer Mint Authority**
 
- Changes the mint authority of an SPL token (e.g., for governance).
+ - Changes the mint authority of an SPL token (e.g., for governance).
+
+ 
 
 
