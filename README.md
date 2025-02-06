@@ -50,6 +50,14 @@ With rising inflation and interest rates, fiat savings are devaluing. This proto
 - mint: The SPL token mint for the asset.
 
 - destinationTokenAccount: The user’s associated token account.
+
+**2️⃣ Update Asset Metadata**
+
+- Updates the URI of the asset (e.g., pointing to a new metadata location).
+- Only the original creator can update metadata.
+
+**3️⃣ Freeze & Thaw Token Accounts**
+- Only the freeze authority can execute these actions.
   
 
 
