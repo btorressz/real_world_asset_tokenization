@@ -96,6 +96,18 @@ With rising inflation and interest rates, fiat savings are devaluing. This proto
 - **✅ Automated Tax Reporting: Generate on-chain tax reports for asset sales.**
 
 
+## 🛠 Tech Stack
+- Rust 
+- TypeScript 
+- Solana 
+- Anchor 
+- Solana Playground IDE
+
+## 📜 License
+
+This project is licensed under the **MIT License.**
+
+
 
  
 
